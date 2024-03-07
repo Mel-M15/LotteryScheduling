@@ -19,5 +19,5 @@ The lottery scheduling algorithm has the following functionality:
 # Instructions for Execution
 1. Run this program in C++.
 2. There is no user input to be entered to run the program
-3. Run the program and a random process from IDs of 1,2,3 will be randomly selected to win the lottery.
+3. Run the program and a process from IDs of 1, 2, or 3 will be randomly selected to win the lottery.
 4. Optional: Run the program many more times to verify that the processes that win the lottery are selected at random.
