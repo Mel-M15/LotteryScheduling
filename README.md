@@ -4,7 +4,7 @@ Please run this LotteryScheduling project in C++.
 
 # Overview
 
-This C++ program implements a basic lottery scheduling algorithm. Processes are assigned lottery tickets, and the scheduler randomly selects a ticket to determine which process wins the lottery. 
+This C++ program implements a basic lottery scheduling algorithm. Processes are assigned an ID and number of lottery tickets, and the scheduler randomly selects a ticket to determine which process wins the lottery. 
 
 # Functionality
 The lottery scheduling algorithm has the following functionality:
