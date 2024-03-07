@@ -12,7 +12,7 @@ The lottery scheduling algorithm has the following functionality:
 2. Scheduler class - schedules the processes using a first-come-first-serve(FCFS) scheduling algorithm.
 3. Processes are added to the scheduler using the 'addProcess' method. Each process with its ID and number of tickets is pushed into a queue named 'processes'.
 4. Allocates lottery tickets using the 'allocateTickets' method. The number of tickets a process has is how many times the process's ID number will be pushed into the vector named 'lotteryTickets'.
-5. Select the next process to run using the 'selectProcess' method. By using the random number generator, it will select from numbers 0-(size of lotteryTickets vector). The number that is randomly selected indicates the index of which process from, the vector of lotteryTickets will be selected.
+5. Select the next process to run using the 'selectProcess' method. By using the random number generator, it will select from numbers 0-(size of lotteryTickets vector). The number that is randomly selected indicates the index of which process from the vector of lotteryTickets will be selected.
 6. Output the process that wins by returning the process's ID number from the 'selectProcess' method.
 
    
