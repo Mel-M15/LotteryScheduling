@@ -8,7 +8,7 @@ This C++ program implements a basic lottery scheduling algorithm. Processes are 
 
 # Functionality
 The lottery scheduling algorithm has the following functionality:
-1. Process class - represents a process. Each process has a unique ID and several lottery tickets. Process class has 2 methods: getID(), which returns the ID of each process, and getNumTickets() which returns the number of tickets each process has.
+1. Process class - represents a process. Each process has a unique ID and several lottery tickets. Process class has two methods: getID(), which returns the ID of each process, and getNumTickets() which returns the number of tickets each process has.
 2. Scheduler class - schedules the processes using a first-come-first-serve(FCFS) scheduling algorithm.
 3. Processes are added to the scheduler using the 'addProcess' method. Each process with its ID and number of tickets is pushed into a queue named 'processes'.
 4. Allocates lottery tickets using the 'allocateTickets' method. The number of tickets a process has is how many times the process's ID number will be pushed into the vector named 'lotteryTickets'.
